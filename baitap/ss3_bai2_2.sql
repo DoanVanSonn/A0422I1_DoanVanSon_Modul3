@@ -26,4 +26,5 @@ pID int,
 odQTY int,
 foreign key (oID) references Orderr(oID),
 foreign key (pID) references product(pID)
-)
+);
+
