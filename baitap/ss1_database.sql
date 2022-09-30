@@ -28,3 +28,5 @@ VALUES
 SELECT * FROM `class`;
 -- in bản teacher
 SELECT * FROM `teacher`;
+
+gggg

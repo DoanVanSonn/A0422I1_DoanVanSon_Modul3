@@ -74,4 +74,4 @@ where o.id is null;
 SELECT o.id as `code`, o.orderDate as `date`, sum(p.price* d.quantity) as total from `order` o
 INNER JOIN order_detail d on d.order_id= o.id
 INNER JOIN product p on p.id= d.product_id
-GROUP BY o.id
+GROUP BY o.idproducts
