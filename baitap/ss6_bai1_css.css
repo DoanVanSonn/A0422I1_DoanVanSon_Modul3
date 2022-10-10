@@ -1,0 +1,38 @@
+h1{
+    font-weight: bold;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div-cha{
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 10px;
+}
+.div-con1{
+    width: 50%;
+    float: left;
+
+}
+.div-con2{
+    width: 50%;
+    float: right;
+}
+.nd-3{
+    margin-top: 20px;
+    text-align: justify;
+    text-indent: 10px;
+}
+.nd-2{
+    text-align: justify;
+    text-indent: 10px;
+}
+.nd-1{
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+}
