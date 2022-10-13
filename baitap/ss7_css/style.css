@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    top: 0;
+    display: table;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #aaaaaa;
+    position: fixed;
+    z-index: 1;
+    background-color: pink;
+}
+header .logo-fb{
+    width: 60px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+
+}
+.header-between{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.a{
+    padding: 0 40px;
+    font-size: 30px;
+}
+.b {
+    padding: 0 20px;
+    font-size: 30px;
+}
+.c{
+    padding: 0 10px;
+}
+.logo-search{
+    border: 1px solid #000000;
+    border-radius: 50px;
+
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+}
+.header-end{
+    display: flex;
+    align-items: center;
+}
+.user{
+    font-size: 30px;
+}
+.friend{
+    width: 30px;
+}
+.bookmark{
+    font-size: 30px;
+}
+.group{
+    width: 30px;
+}
+.marketplace{
+    width: 30px;
+}
+.watch{
+    width: 30px;
+}
+.more{
+    font-size: 30px;
+}
+
+.list-slide-bar{
+    display: flex;
+    flex-direction: column;
+}
+.sile-bar{
+    padding: 20px 10px;
+
+}
+.l{
+    padding: 10px;
+}
+#content{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.05);
+
+}
+.list-story{
+    display: flex;
+    justify-content: space-around;
+}
+.list-story2{
+    display: flex;
+}
+.tkd{
+    height: 200px;
+    width: 200px;
+}
+.list-content{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.list-content1{
+    max-height: 400px;
+    border: 1px solid #aaaaaa;
+    background-color: white;
+    padding: 10px;
+    margin-left: 216px;
+}
+.list-content2{
+    margin-top: 20px;
+    background-color: white;
+    margin-left: 216px;
+}
+.tkd-best{
+    padding: 0 20px;
+}
+.tkd2{
+    width: 80px;
+    border-radius: 100%;
+}
+.tkd-said{
+    border: 1px solid #aaaaaa;
+    border-radius: 70px;
+    border-width: 4px;
+    align-items: center;
+    margin-top: 10px;
+    flex: 1;
+    background-color: lavender;
+}
+hr{
+    margin-top: 10px;
+    flex: 1;
+}
+.story-tkd{
+    display: flex;
+}
+.sub-list-content3{
+    display: flex;
+    justify-content: space-around;
+}
+.icon-content3{
+    font-size: 20px;
+    padding: 10px;
+}
+.list-content3{
+    margin-top: 10px;
+    border: 1px solid #aaaaaa;
+    background-color: white;
+}
+.messager{
+    padding-left: 40px;
+}
+.giay{
+    width: 100px;
+}
+.e{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.text-birthday{
+    padding:10px;
+}
+.sub-list-messager2{
+    display: flex;
+    justify-content: space-around;
+}
+.tim{
+    padding-left: 100px;
+}
+.oh{
+    width: 100px;
+}
+.sub-oh{
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+}
+.ten{
+    padding-left: 20px;
+}
+.sub-hello{
+    display: flex;
+}
+.ohhh{
+    width: 80px;
+    border: 1px solid #aaaaaa;
+    border-radius: 50px;
+}
+.list-content4{
+    margin-left: 215px;
+    margin-top: 20px;
+}
+.gg {
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+}
+.eee{
+    float: right;
+}
+.hoa{
+    margin-right: 10px;
+}
